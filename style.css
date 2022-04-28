@@ -1,0 +1,344 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.menu {
+  left: 0;
+  padding: 20px;
+  border-right-style:solid;
+  border-radius: 25px;
+}
+
+#logoJP {
+  height:70px;
+}
+#logo {
+  width: 200px;
+}
+#map {
+  height:250px;
+  width:250px
+}
+
+summary:hover {background-color: darkcyan;}
+summary {cursor:pointer}
+
+
+aside {
+  padding:25px;
+  flex-grow: 1;
+}
+
+li {
+  background-color: aliceblue;
+  border-style: solid;
+  margin:5px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 5px;
+}
+
+ul {padding:5px}
+
+footer {
+ 
+  padding:20px;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+details > summary {
+  list-style-type: '▶️';
+}
+
+details[open] > summary {
+  list-style-type: '🔽';
+}
+details {
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  border-radius: 25px;
+}
+
+details[open] > summary {
+  margin-bottom: 0.5rem;
+}
+
+
+/* main css */
+
+.slideshow {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.slideshow-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: no-repeat 50% 50%;
+  background-size: cover;
+  -webkit-animation-name: kenburns;
+  animation-name: kenburns;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 16s;
+  animation-duration: 16s;
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.slideshow-image:nth-child(1) {
+  -webkit-animation-name: kenburns-1;
+  animation-name: kenburns-1;
+  z-index: 3;
+}
+
+.slideshow-image:nth-child(2) {
+  -webkit-animation-name: kenburns-2;
+  animation-name: kenburns-2;
+  z-index: 2;
+}
+
+.slideshow-image:nth-child(3) {
+  -webkit-animation-name: kenburns-3;
+  animation-name: kenburns-3;
+  z-index: 1;
+}
+
+.slideshow-image:nth-child(4) {
+  -webkit-animation-name: kenburns-4;
+  animation-name: kenburns-4;
+  z-index: 0;
+}
+ @-webkit-keyframes 
+kenburns-1 {  0% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 1.5625% {
+ opacity: 1;
+}
+ 23.4375% {
+ opacity: 1;
+}
+ 26.5625% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 98.4375% {
+ opacity: 0;
+ -webkit-transform: scale(1.21176);
+ transform: scale(1.21176);
+}
+ 100% {
+ opacity: 1;
+}
+}
+ @keyframes 
+kenburns-1 {  0% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 1.5625% {
+ opacity: 1;
+}
+ 23.4375% {
+ opacity: 1;
+}
+ 26.5625% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 98.4375% {
+ opacity: 0;
+ -webkit-transform: scale(1.21176);
+ transform: scale(1.21176);
+}
+ 100% {
+ opacity: 1;
+}
+}
+@-webkit-keyframes 
+kenburns-2 {  23.4375% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 26.5625% {
+ opacity: 1;
+}
+ 48.4375% {
+ opacity: 1;
+}
+ 51.5625% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+}
+@keyframes 
+kenburns-2 {  23.4375% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 26.5625% {
+ opacity: 1;
+}
+ 48.4375% {
+ opacity: 1;
+}
+ 51.5625% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+}
+@-webkit-keyframes 
+kenburns-3 {  48.4375% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 51.5625% {
+ opacity: 1;
+}
+ 73.4375% {
+ opacity: 1;
+}
+ 76.5625% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+}
+@keyframes 
+kenburns-3 {  48.4375% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 51.5625% {
+ opacity: 1;
+}
+ 73.4375% {
+ opacity: 1;
+}
+ 76.5625% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+}
+@-webkit-keyframes 
+kenburns-4 {  73.4375% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 76.5625% {
+ opacity: 1;
+}
+ 98.4375% {
+ opacity: 1;
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+}
+@keyframes 
+kenburns-4 {  73.4375% {
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 76.5625% {
+ opacity: 1;
+}
+ 98.4375% {
+ opacity: 1;
+}
+ 100% {
+ opacity: 0;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 99;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  line-height: 1.5;
+}
