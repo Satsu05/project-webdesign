@@ -64,6 +64,11 @@ ul.box>li {
 }
 
 ul {padding:5px}
+#bottom-adress{
+  display: flex;
+  justify-content: space-between;
+}
+h3{color:grey}
 /*end base*/
 
 /*footer {
