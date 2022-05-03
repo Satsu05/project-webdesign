@@ -52,7 +52,7 @@ ul {padding:5px}
   text-align: center;
 }*/
 
-
+#map{border-radius: 25px;}
 footer{
   background: #140B5C;
   width: 100%;
@@ -144,7 +144,7 @@ footer .content .link-boxes .box{
   opacity: 1;
 }
 
-}
+  
 @media (max-width: 900px) {
   footer .content .link-boxes{
     flex-wrap: wrap;
