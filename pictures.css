@@ -1,0 +1,124 @@
+.pizza-slice {
+    background-image: url(pizza.jpg);
+    width: 1250px;
+    height: 190px;
+    background-size: 1300px;
+    background-position: 1px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  .pizza-slice:hover {
+    opacity: 1;
+  }
+  
+  .jongeren {
+    background-image: url(wecandoit.jpg);
+    width: 1250px;
+    height: 190px;
+    background-size: 1246px;
+    background-position-y: -200px;
+    background-position-x: 1px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  .jongeren:hover{
+    opacity: 1;
+  }
+  
+  .volwassen {
+    background-image: url(Patsy.jpg);
+    width: 1250px;
+    height: 190px;
+    background-size: 1250px;
+    background-position: 1px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  
+  .volwassen:hover {
+    opacity: 1;
+  }
+  
+  .beeld {
+    background-image: url(beeld.jpg);
+    width: 1250px;
+    height: 190px;
+    background-size: 1250px;
+    background-position-y: -205px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  
+  .beeld:hover {
+    opacity: 1;
+  }
+  
+  .kunst {
+    background-image: url(lines.jpg);
+    width: 1250px;
+    height: 190px;
+    background-size: 1250px;
+    background-position-y: -70px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  
+  .kunst:hover {
+    opacity: 1;
+  }
+
+  .tafel {
+    background-image: url(tafel.jpg);
+    width: 1250px;
+    height: 190px;
+    background-size: 1250px;
+    background-position-y: -185px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .tafel:hover {
+    opacity: 1;
+  }
+
+  .artikels {
+    background-image: url(artikels.jpg);
+    width: 1250px;
+    height: 190px;
+    background-size: 1250px;
+    background-position-y: -185px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .artikels:hover {
+    opacity: 1;
+  }
+
+  .window {
+    background-image: url(window.jpg);
+    width: 1250px;
+    height: 190px;
+    background-size: 1250px;
+    background-position-y: -185px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .window:hover {
+    opacity: 1;
+  }
+
+  .tag {
+    background-image: url(blacktag.jpg);
+    width: 1250px;
+    height: 190px;
+    background-size: 1250px;
+    background-position-y: -380px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .tag:hover {
+    opacity: 1;
+  }
