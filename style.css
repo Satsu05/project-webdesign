@@ -11,7 +11,7 @@
   left: 0;
   padding: 20px;
   border-right-style:solid;
-  border-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 #logoJP {
@@ -103,15 +103,7 @@ footer{
   bottom: 0;
   left: 0;
 }
-footer::before{
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 100px;
-  height: 1px;
-  width: 100%;
-  background: #AFAFB6;
-}
+
 footer .content{
   max-width: 1250px;
   margin: auto;
@@ -277,12 +269,7 @@ details[open] > summary {
   margin-bottom: 0.5rem;
 }
 
-li.pictures {
-  border-style: none;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-}
+
 a>img {
   height:150px;
   width: 500px;

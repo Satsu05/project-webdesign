@@ -1,4 +1,16 @@
-.pizza-slice {
+  li.pictures {
+    border-style: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+  li.pictures-inschrijvingen {
+    border-style: none;
+    background-color: white;
+    justify-content: center;
+  }
+
+  .pizza-slice {
     background-image: url(pizza.jpg);
     width: 1250px;
     height: 190px;
@@ -120,5 +132,45 @@
   }
 
   .tag:hover {
+    opacity: 1;
+  }
+
+  .drawing {
+    background-image: url(drawing.jpg);
+    width: 1250px;
+    height: 190px;
+    background-size: 1250px;
+    background-position-y: -197px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .drawing:hover {
+    opacity: 1;
+  }
+
+  .flower {
+    background-image: url(flower.jpg);width: 1250px;
+    height: 190px;
+    background-size: 1250px;
+    background-position-y: -345px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .flower:hover {
+    opacity: 1;
+  }
+
+  .LR {
+    background-image: url(LR.jpg);
+    height: 190px;
+    background-size: 1250px;
+    background-position-y: -345px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .LR:hover {
     opacity: 1;
   }
