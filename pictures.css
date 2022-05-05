@@ -187,3 +187,9 @@
   .collage:hover {
    opacity: 1;
   }
+
+  img>h4 {
+    color:black;
+    display:flex;
+    justify-content: center;
+  }
