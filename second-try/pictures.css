@@ -1,0 +1,181 @@
+li.pictures {
+    border-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  li.pictures-inschrijvingen {
+    border-style: none;
+    justify-content: center;
+  }
+
+  .pizza-slice {
+    background-image: url(pizza.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  .pizza-slice:hover {
+    opacity: 1;
+  }
+  
+  .jongeren {
+    background-image: url(wecandoit.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  .jongeren:hover{
+    opacity: 1;
+  }
+  
+  .volwassen {
+    background-image: url(Patsy.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  
+  .volwassen:hover {
+    opacity: 1;
+  }
+  
+  .beeld {
+    background-image: url(beeld.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  
+  .beeld:hover {
+    opacity: 1;
+  }
+  
+  .kunst {
+    background-image: url(lines.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  
+  .kunst:hover {
+    opacity: 1;
+  }
+
+  .tafel {
+    background-image: url(tafel.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .tafel:hover {
+    opacity: 1;
+  }
+
+  .artikels {
+    background-image: url(artikels.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .artikels:hover {
+    opacity: 1;
+  }
+
+  .window {
+    background-image: url(window.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .window:hover {
+    opacity: 1;
+  }
+
+  .tag {
+    background-image: url(blacktag.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .tag:hover {
+    opacity: 1;
+  }
+
+  .drawing {
+    background-image: url(drawing.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .drawing:hover {
+    opacity: 1;
+  }
+
+  .flower {
+    background-image: url(flower.jpg);
+    opacity: 0.8;
+  }
+
+  .flower:hover {
+    opacity: 1;
+  }
+
+  .LR {
+    background-image: url(LR.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .LR:hover {
+    opacity: 1;
+  }
+
+  .collage {
+    background-image: url(collage.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .collage:hover {
+   opacity: 1;
+  }
+
+  .PI {
+    background-image: url(ugly.jpeg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .PI:hover {
+   opacity: 1;
+  }
+
+  a>div>h2 {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    display:flex;
+    justify-content: center;
+    text-shadow: 2px 2px 5px darkslategray;
+  }
+
+  .wth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vakantie {
+    background-image: url(school.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .vakantie:hover {
+    opacity: 1;
+  }
+
+  .rules {
+    background-image: url(paper.jpg);
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .rules:hover {
+    opacity: 1;
+  }
