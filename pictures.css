@@ -205,14 +205,45 @@
   }
 
   a>div>h2 {
-    color:black;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     display:flex;
     justify-content: center;
-    padding: 85px;
+    padding: 80px;
+    text-shadow: 2px 2px 5px darkslategray;
   }
 
   .wth {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .vakantie {
+    background-image: url(school.jpg);
+    width:1250px;
+    height: 190px;
+    background-size: 1250px;
+    background-position-y: -415px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .vakantie:hover {
+    opacity: 1;
+  }
+
+  .rules {
+    background-image: url(paper.jpg);
+    width:1250px;
+    height: 190px;
+    background-size: 1250px;
+    background-position-y: -415px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .rules:hover {
+    opacity: 1;
   }
