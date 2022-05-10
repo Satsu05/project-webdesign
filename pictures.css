@@ -165,7 +165,8 @@
   .LR {
     background-image: url(LR.jpg);
     height: 190px;
-    background-size: 1250px;
+    width: 1250px;
+    background-size: 1330px;
     background-position-y: -345px;
     border-radius: 10px;
     opacity: 0.8;
@@ -177,9 +178,10 @@
 
   .collage {
     background-image: url(collage.jpg);
+    width: 1250px;
     height: 190px;
     background-size: 1250px;
-    background-position-y: -345px;
+    background-position-y: -153px;
     border-radius: 10px;
     opacity: 0.8;
   }
@@ -188,8 +190,29 @@
    opacity: 1;
   }
 
-  img>h4 {
+  .PI {
+    width:1250px;
+    background-image: url(ugly.jpeg);
+    height: 190px;
+    background-size: 1250px;
+    background-position-y: -454px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .PI:hover {
+   opacity: 1;
+  }
+
+  a>div>h2 {
     color:black;
     display:flex;
     justify-content: center;
+    padding: 85px;
+  }
+
+  .wth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
