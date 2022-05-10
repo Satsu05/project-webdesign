@@ -12,7 +12,6 @@
 
   .pizza-slice {
     background-image: url(pizza.jpg);
-    width: 1250px;
     height: 190px;
     background-size: 1300px;
     background-position: 1px;
@@ -25,7 +24,6 @@
   
   .jongeren {
     background-image: url(wecandoit.jpg);
-    width: 1250px;
     height: 190px;
     background-size: 1246px;
     background-position-y: -200px;
@@ -39,7 +37,6 @@
   
   .volwassen {
     background-image: url(Patsy.jpg);
-    width: 1250px;
     height: 190px;
     background-size: 1250px;
     background-position: 1px;

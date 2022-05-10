@@ -95,7 +95,7 @@
   
     
   @media (max-width: 900px) {
-    footer .content .link-boxes{
+    footer .content .link-boxes {
       flex-wrap: wrap;
     }
     footer .content .link-boxes .input-box{
