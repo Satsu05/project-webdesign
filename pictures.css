@@ -174,3 +174,22 @@
   .LR:hover {
     opacity: 1;
   }
+
+  .collage {
+    background-image: url(collage.jpg);
+    height: 190px;
+    background-size: 1250px;
+    background-position-y: -345px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+
+  .collage:hover {
+   opacity: 1;
+  }
+
+  img>h4 {
+    color:black;
+    display:flex;
+    justify-content: center;
+  }
