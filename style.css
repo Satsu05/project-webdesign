@@ -31,7 +31,6 @@ a:visited {
 }
 
 ul.box>li {
-  background-color: aliceblue;
   border-style: solid;
   margin: 5px;
   border-radius: 25px;
@@ -79,9 +78,7 @@ footer {
   text-align: center;
 }
 
-footer a {
-  color: #ccc;
-}
+
 
 footer p, footer ul {
   margin: 1rem 0;
