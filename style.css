@@ -70,15 +70,7 @@ details[open]>summary {
   display: inline-block;
 }
 
-#mainmenu a {
-  color: #ccc;
-  display: inline-block;
-  height: 2.8rem;
-  line-height: 2.4rem;
-  padding: 0.2rem 0.5rem;
-  text-align: center;
-  width: 5rem;
-}
+
 
 #mainmenu li+li:before {
   color: #999;
