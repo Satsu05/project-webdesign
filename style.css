@@ -60,32 +60,6 @@ details[open]>summary {
   justify-content: space-between;
 }
 
-
-
-#mainmenu {
-  display: block;
-}
-
-#mainmenu li {
-  display: inline-block;
-}
-
-
-
-#mainmenu li+li:before {
-  color: #999;
-  content: '|';
-}
-
-#leftmenu {
-  background-color: #FEFF99;
-  padding: 1rem 2rem;
-}
-
-#leftmenu ul {
-  list-style: none;
-}
-
 /* content */
 #content {
   padding: 1rem 2rem;

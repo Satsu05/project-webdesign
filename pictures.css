@@ -12,139 +12,139 @@ li.pictures {
   .pizza-slice {
     background-image: url(pizza.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
   .pizza-slice:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
   
   .jongeren {
     background-image: url(wecandoit.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
   .jongeren:hover{
-    opacity: 1;
+    opacity: 0.7;
   }
   
   .volwassen {
     background-image: url(Patsy.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
   
   .volwassen:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
   
   .beeld {
     background-image: url(beeld.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
   
   .beeld:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
   
   .kunst {
     background-image: url(lines.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
   
   .kunst:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
 
   .tafel {
     background-image: url(tafel.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
 
   .tafel:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
 
   .artikels {
     background-image: url(artikels.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
 
   .artikels:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
 
   .window {
     background-image: url(window.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
 
   .window:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
 
   .tag {
     background-image: url(blacktag.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
 
   .tag:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
 
   .drawing {
     background-image: url(drawing.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
 
   .drawing:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
 
   .flower {
     background-image: url(flower.jpg);
-    opacity: 0.8;
+    opacity: 1;
   }
 
   .flower:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
 
   .LR {
     background-image: url(LR.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
     background-position-y: -140px;
   }
 
   .LR:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
 
   .collage {
     background-image: url(collage.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
 
   .collage:hover {
-   opacity: 1;
+   opacity: 0.7;
   }
 
   .PI {
     background-image: url(ugly.jpeg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
 
   .PI:hover {
-   opacity: 1;
+   opacity: 0.7;
   }
 
   a>div>p {
@@ -166,19 +166,19 @@ li.pictures {
   .vakantie {
     background-image: url(school.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
 
   .vakantie:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
 
   .rules {
     background-image: url(paper.jpg);
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
   }
 
   .rules:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
