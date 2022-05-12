@@ -1,0 +1,128 @@
+/* Media queries
+  /* ============== */
+
+  @media (min-width:1100px) {
+      a>div>p {
+          font-size: 70px;
+      }
+      .foto-grootte {
+          width: 700px;
+      }
+      #map{
+        border-radius: 25px;
+        width: 100%;
+        height: 250px;
+      }
+  }
+  @media (max-width:1100px) {
+      a>div>p {
+          font-size: 60px;
+      }
+      .foto-grootte {
+          width: 600px;
+      }
+  }
+
+  @media (max-width: 900px) {
+    footer .content .link-boxes {
+      flex-wrap: wrap;
+    }
+    footer .content .link-boxes .input-box{
+      width: 40%;
+      margin-top: 10px;
+    }
+    footer{
+      position: relative;
+    }
+    .content .top .logo-details{
+      font-size: 26px;
+    }
+    .content .top .media-icons a{
+      height: 35px;
+      width: 35px;
+      font-size: 14px;
+      line-height: 35px;
+    }
+    footer .content .link-boxes .box{
+      width: calc(100% / 3 - 10px);
+    }
+    footer .content .link-boxes .input-box{
+      width: 60%;
+    }
+  }
+
+  @media (max-width: 800px) {
+    main {
+      background-color: ghostwhite;
+    }
+    a>div>p {
+        font-size: 50px;
+    }
+    header {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+    }
+    .foto-grootte {
+      width: 500px;;
+    }
+    table {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    main {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+    }
+    #content {
+      width: 79%;
+    }
+    a>div>p {
+        font-size: 35px;
+    }
+    .foto-grootte {
+        width: 400px;;
+      }
+    table {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 520px){
+    footer::before{
+      top: 145px;
+    }
+    footer .content .top{
+      flex-direction: column;
+    }
+    .content .top .media-icons{
+      margin-top: 16px;
+    }
+    footer .content .link-boxes .box{
+      width: calc(100% / 2 - 10px);
+    }
+    footer .content .link-boxes .input-box{
+      width: 100%;
+    }
+  }
+  
+  @media (max-width:500px) {
+    a>div>p {
+        font-size: 20px;
+    }
+    .foto-grootte {
+        width: 300px;
+    }
+  }
+
+  @media (max-width:400px) {
+      .foto-grootte {
+          width: 250px;
+      }
+      a>div>p {
+          font-size: 20px;
+      }
+  }

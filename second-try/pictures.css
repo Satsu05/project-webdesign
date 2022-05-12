@@ -6,6 +6,7 @@ li.pictures {
   li.pictures-inschrijvingen {
     border-style: none;
     justify-content: center;
+    margin:4%;
   }
 
   .pizza-slice {
@@ -119,6 +120,7 @@ li.pictures {
     background-image: url(LR.jpg);
     border-radius: 10px;
     opacity: 0.8;
+    background-position-y: -140px;
   }
 
   .LR:hover {
@@ -145,13 +147,14 @@ li.pictures {
    opacity: 1;
   }
 
-  a>div>h2 {
+  a>div>p {
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     display:flex;
     justify-content: center;
     text-shadow: 2px 2px 5px darkslategray;
+    padding: 12%;
   }
 
   .wth {
