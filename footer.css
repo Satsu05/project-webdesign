@@ -1,6 +1,3 @@
-#logo {
-    width: 9%;
-}
 
 #bottom-adress {
     display: flex;
@@ -17,6 +14,8 @@
     width: 100%;
     bottom: 0;
     left: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
   
   footer .content{
@@ -99,6 +98,7 @@
   footer .bottom-details{
     width: 100%;
     background: #0F0844;
+    border-radius: 20px;
   }
   footer .bottom-details .bottom_text{
     margin: auto;
@@ -106,5 +106,6 @@
     display: flex;
     justify-content: center;
   }
+
   
   

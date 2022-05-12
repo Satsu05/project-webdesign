@@ -60,9 +60,7 @@ details[open]>summary {
   justify-content: space-between;
 }
 
-#LOGO {
-  width: 20%;
-}
+
 
 #mainmenu {
   display: block;
@@ -101,14 +99,15 @@ details[open]>summary {
   padding: 1rem 2rem;
 }
 
-
+.table {
+  display: inline-block;
+}
 
 /* ===========================================
     Footer
     =========================================== */
 
 footer {
-  background-color: #666;
   font-size: smaller;
   padding: 1rem;
   text-align: center;
@@ -127,10 +126,6 @@ footer ul {
   padding: 0;
 }
 
-footer li {
-  display: inline-block;
-}
-
 footer ul a {
   display: inline;
   line-height: 2.4rem;
@@ -140,13 +135,6 @@ footer ul a {
 .foto-grootte {
   padding: 5px;
   margin: 5px;
-}
-
-
-body {
-  background-color: #999;
-  font-family: Verdana;
-  font-size: 1.6rem;
 }
 
 h2, h3, h4, h5 {
