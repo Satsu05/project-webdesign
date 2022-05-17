@@ -1,7 +1,7 @@
 li.pictures {
-    border-style: none;
-    display: flex;
-    justify-content: center;
+  border-style: none;
+  justify-content: center;
+  margin:4%;
   }
   li.pictures-inschrijvingen {
     border-style: none;
@@ -13,6 +13,8 @@ li.pictures {
     background-image: url(pizza.jpg);
     border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 16%;
   }
   .pizza-slice:hover {
     opacity: 0.7;
@@ -22,6 +24,8 @@ li.pictures {
     background-image: url(wecandoit.jpg);
     border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 15%;
   }
   .jongeren:hover{
     opacity: 0.7;
@@ -31,6 +35,8 @@ li.pictures {
     background-image: url(Patsy.jpg);
     border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 20%;
   }
   
   .volwassen:hover {
@@ -41,6 +47,8 @@ li.pictures {
     background-image: url(beeld.jpg);
     border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 10%;
   }
   
   .beeld:hover {
@@ -51,6 +59,8 @@ li.pictures {
     background-image: url(lines.jpg);
     border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 5%;
   }
   
   .kunst:hover {
@@ -61,6 +71,8 @@ li.pictures {
     background-image: url(tafel.jpg);
     border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 32%;
   }
 
   .tafel:hover {
@@ -71,6 +83,8 @@ li.pictures {
     background-image: url(artikels.jpg);
     border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 15%;
   }
 
   .artikels:hover {
@@ -81,6 +95,8 @@ li.pictures {
     background-image: url(window.jpg);
     border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 25%;
   }
 
   .window:hover {
@@ -91,6 +107,8 @@ li.pictures {
     background-image: url(blacktag.jpg);
     border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 34%;
   }
 
   .tag:hover {
@@ -101,6 +119,8 @@ li.pictures {
     background-image: url(drawing.jpg);
     border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 15%;
   }
 
   .drawing:hover {
@@ -109,7 +129,10 @@ li.pictures {
 
   .flower {
     background-image: url(flower.jpg);
+    border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 45%;
   }
 
   .flower:hover {
@@ -120,7 +143,8 @@ li.pictures {
     background-image: url(LR.jpg);
     border-radius: 10px;
     opacity: 1;
-    background-position-y: -140px;
+    background-position-y: 45%;
+    background-size: 135%;
   }
 
   .LR:hover {
@@ -131,6 +155,8 @@ li.pictures {
     background-image: url(collage.jpg);
     border-radius: 10px;
     opacity: 1;
+    background-position-y: 15%;
+    background-size: 100%;
   }
 
   .collage:hover {
@@ -141,6 +167,8 @@ li.pictures {
     background-image: url(ugly.jpeg);
     border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 35%;
   }
 
   .PI:hover {
@@ -167,6 +195,8 @@ li.pictures {
     background-image: url(school.jpg);
     border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 20%;
   }
 
   .vakantie:hover {
@@ -177,8 +207,22 @@ li.pictures {
     background-image: url(paper.jpg);
     border-radius: 10px;
     opacity: 1;
+    background-size: 100%;
+    background-position-y: 13%;
   }
 
   .rules:hover {
+    opacity: 0.7;
+  }
+
+  .red {
+    background-image: url(red.jpeg);
+    border-radius: 10px;
+    opacity: 1;
+    background-size: 100%;
+    background-position-y: 0%;
+  }
+
+  .red:hover {
     opacity: 0.7;
   }
