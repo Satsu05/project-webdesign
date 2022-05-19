@@ -145,11 +145,10 @@ li.pictures {
     opacity: 1;
     background-position-y: 45%;
     background-size: 135%;
-    transition: all 1s ease-in-out;
-    overflow: hidden;
   }
+
   .LR:hover {
-    transform: scale(1.2);
+    opacity: 0.7;
   }
 
   .collage {
