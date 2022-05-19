@@ -6,8 +6,15 @@
 }
 
 summary:hover {
-  background-color: gray;
-  border-radius: 25px;
+  background-color:black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.table-body summary:hover {
+  background-color:#328CC1;
+  color: #1D2731;
 }
 
 summary {
@@ -15,19 +22,16 @@ summary {
 }
 
 a:hover {
-  background-color: beige;
-  border-radius: 25px;
-  color: #0F0844;
+  background-color: #D5D5E3;
+  border-radius: 10px;
+  color: whitesmoke;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 a:link {
-  color: black;
   text-decoration: none;
   font-weight: 500;
-}
-
-a:visited {
-  color: grey
 }
 
 ul.box>li {
@@ -39,7 +43,7 @@ ul.box>li {
 }
 
 details {
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 details[open]>summary {
@@ -149,19 +153,52 @@ h5 {
   word-break: break-word;
 }
 
+.table-container tr:nth-child(5) td {
+  background-color: lightgray;
+}
+.table-container tr:nth-child(3) td {
+  background-color: lightgray;
+}
 .table-container tr:first-child td {
   word-break:keep-all;
+  background-color: lightgray;
+}
+.table-container tr:nth-child(2) td {
+  background-color: whitesmoke;
+}
+.table-container tr:nth-child(4) td {
+  background-color: whitesmoke;
 }
 
 .table-container tr.three>th {
   max-width: 150px;
 }
 
+.table-body summary {
+  background-color:#1D2731;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 1%;
+}
 caption {
   padding: 0.8rem 1rem;
   border: 2px solid;
   border-color: gray;
   text-align: left;
   font-weight: bolder;
-  background-color: lightgray;
+  background-color:#1D2731;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.table-body {
+  border: 5px solid;
+  border-color:#1D2731;
+  border-radius: 10px;
+  min-width: 65%;
+  text-align: center;
+  background-color:#0B3C5D;
+  margin: 4%;
 }

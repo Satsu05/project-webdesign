@@ -1,7 +1,7 @@
 /* CSS Document */
 
 body {
-    font-size: 22px;
+    font-size: 145%;
     line-height: 32px;
     word-wrap: break-word !important;
 }
@@ -62,10 +62,11 @@ nav ul li {
 nav a {
     display: block;
     padding: 0 10px;
-    color: #FFF;
+    color: #968B86;
     font-size: 20px;
     line-height: 60px;
     text-decoration: none;
+    font-size: 100%;
 }
 
 nav a:hover {

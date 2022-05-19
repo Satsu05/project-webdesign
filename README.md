@@ -10,3 +10,8 @@ jan portaels
 - hebben mediauqery toevoeged voor class foto grootte
 - zie mss om de h2 bij kleinere grootte, kleiner lettertype te maken zodat het op het scherm past
 - fix footer, begin daar opnieuw eventueel
+
+## 19/05/2022
+- zet alle afbeeldingen in aparte map
+- W3C valid voor css & html
+- animatie op images
