@@ -153,22 +153,18 @@ h5 {
   word-break: break-word;
 }
 
-.table-container tr:nth-child(5) td {
-  background-color: lightgray;
-}
-.table-container tr:nth-child(3) td {
+
+.table-container tr:nth-child(odd) td {
   background-color: lightgray;
 }
 .table-container tr:first-child td {
   word-break:keep-all;
   background-color: lightgray;
 }
-.table-container tr:nth-child(2) td {
+.table-container tr:nth-child(even) td {
   background-color: whitesmoke;
 }
-.table-container tr:nth-child(4) td {
-  background-color: whitesmoke;
-}
+
 
 .table-container tr.three>th {
   max-width: 150px;
