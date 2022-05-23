@@ -252,4 +252,6 @@
     border-radius: 1em;
     line-height: 1.5;
     font-weight: 500;
+    border-style: solid;
+    border-width: 2px;
   }
