@@ -87,7 +87,6 @@ nav ul {
 nav ul li {
     margin: 0px;
     display: inline-block;
-    float:left;
     background-color: #620277;
 }
 
@@ -239,7 +238,7 @@ li>a:only-child:after {
     nav ul ul {
         float: none;
         position: static;
-        color: lightpinkfff;
+        color: lightpink;
         /* has to be the same number as the "line-height" of "nav a" */
     }
 

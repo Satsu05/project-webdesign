@@ -1,14 +1,7 @@
 /* Media queries
   /* ============== */
 
-  @media(min-width:1150) {
-    #LOGO {
-      width: 250px;
-      height: 67px;
-      background-image: url(LOGOJP.jpg);
-      background-size: 250px;
-    }
-  }
+  
   @media (min-width:1100px) {
     #LOGO {
       min-width: 240px;
