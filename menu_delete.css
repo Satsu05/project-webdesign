@@ -111,3 +111,7 @@ li>a:after {
 li>a:only-child:after {
     content: '';
 }
+
+.geez {
+    font-size: 80%;
+}
